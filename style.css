@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('bgphoto.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header a{
+    text-decoration: none;
+    color:#F0F0F0 ;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+#name{
+    flex:3;
+    font-size: 2.5rem;
+    padding-left: 1em;
+    padding-top: 5px;
+    min-width: 260px;
+}
+nav{
+    flex: 2;
+    display: flex;
+}
+nav a{
+    padding-top: 1em;
+    flex: 1;
+    min-width: 120px;
+}
+nav a:hover{
+    color: #213555;
+}
+ .maintext{
+    color: #F0F0F0;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+ }
+ .tagline1{
+    color: rgb(205, 46, 93);
+    font-size: 1.5rem;
+    font-weight: bolder;
+ }
+ .tagline2{
+    color: #F2F7A1;
+    font-weight: bolder;
+    font-style: oblique;
+ }
+ .maintext div{
+    margin: .75em;
+ }
+
+ .maintext button{
+    width: 20vw;
+    padding: .6em;
+    border-radius: 10px;
+    margin-top: 1.5em;
+    background-color: chocolate;
+    color: #F0F0F0;
+    font-size: 1.2em;
+    border: 1px solid black;
+ }
+ .menu,.locate{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+    background:linear-gradient(to right,#434f67,#010207);
+    color: #F0F0F0;
+    padding-left: 10px;
+ }
+ #menuheading,#location{
+    color:#C5DFF8 ;
+    background:linear-gradient(to right,#434f67,#010207);
+    font-size:2em;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+
+ }
+ .locate{
+    font-size: 20px;
+     padding-bottom: 1em; 
+ }
+ .menu th{
+    font-size:1.5em;
+    color:white;
+    justify-self:center;
+ }
+ table{
+    width: 100%;
+ }
+ .menu tr{
+    display:flex;
+    justify-content:center;
+    margin-top:.8em;
+ }
+ .menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+ }
+ .menu td:nth-child(2){
+    flex: 1;
+    
+ }
+ .maincourse{
+    grid-row:span 2;
+ }
+ #copyright{
+    background-color: #090f18;
+    color: #F0F0F0;
+    padding: .25em 1em;
+ }
+ header a i,nav a i{
+    margin-right: .5em;
+ }
